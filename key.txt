@@ -1,0 +1,7 @@
+Stripe publishable key
+
+pk_test_51LOLE0IiRJ8k8WS4MzPBRv39mb6ws2RHzbq9D6oIuaBDASrJWJkNbpIcD7st7kcw4Zfiv2Phz17DZgnUHahUmlBx00Ax4XQTYr
+
+stripe secret key
+
+sk_test_51LOLE0IiRJ8k8WS4VlnhMgFOitdmeTCaiUshslt9fVoKUpNOVnzpJBpR6SPn1gJ9lHornaXhBv4kfPvy1xq3wj4q00lmWqujRB
