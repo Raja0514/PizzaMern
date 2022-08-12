@@ -21,7 +21,7 @@ const NavBar = () => {
 
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="navbar navbar-dark bg-primary" >
+      <Navbar collapseOnSelect expand="lg" bg="bg light" >
         <Container>
           <Navbar.Brand href="/">
             <h2 className="bg-danger text-white p-1">PIZZA-MUSCAT</h2>
