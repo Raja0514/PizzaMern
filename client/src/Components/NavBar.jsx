@@ -21,7 +21,7 @@ const NavBar = () => {
 
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="bg light" >
+      <Navbar collapseOnSelect expand="lg" bg="bg light">
         <Container>
           <Navbar.Brand href="/">
             <h2 className="bg-danger text-white p-1">PIZZA-MUSCAT</h2>
@@ -29,27 +29,17 @@ const NavBar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
-
-            <LinkContainer to="/">
+              <LinkContainer to="/">
                 <Nav.Link>Home</Nav.Link>
               </LinkContainer>
-
-
 
               {currentUser ? (
                 <LinkContainer to="/">
                   {/* <Nav.Link className="text-warning" >{currentUser.name}</Nav.Link> */}
                   <NavDropdown title={currentUser.name} id="basic-nav-dropdown">
-                   
-                  <LinkContainer to="/order">
-                    
-                  <NavDropdown.Item>
-                      Order
-                    </NavDropdown.Item>
-                  </LinkContainer>
-
-
-
+                    <LinkContainer to="/order">
+                      <NavDropdown.Item>Order</NavDropdown.Item>
+                    </LinkContainer>
 
                     <NavDropdown.Item
                       onClick={() => {
@@ -71,7 +61,7 @@ const NavBar = () => {
                   </LinkContainer>
                 </>
               )}
-              
+
               <LinkContainer to="/cart">
                 <Nav.Link>Cart{state1.cardItems.length}</Nav.Link>
               </LinkContainer>
